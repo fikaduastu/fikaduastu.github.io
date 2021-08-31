@@ -1,0 +1,20 @@
+/*
+Create a stylesheet named styleme.css to improve the appearance of your About Me page.
+ Change the color of at least two elements
+ Change the font properties (family, size, weight, or style) of at least two elements. Some
+standard fonts: Arial, Arial Black, Verdana, Trebuchet MS,Georgia, Tahoma, Courier
+New, Times New Roman
+ Change at least one other thing (e.g. background color, text alignment, etc.)
+*/
+
+body{
+    background-color: gray;
+}
+h1,h2{
+    color: pink;
+    font-family: Arial, 'Arial Black', Verdana, 'Trebuchet MS',Georgia, Tahoma, Courier;
+}
+span{
+    color : yellow;
+    font-weight: bold;
+}
