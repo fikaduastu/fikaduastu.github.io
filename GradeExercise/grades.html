@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Retrieve Grade</title>
+</head>
+<body>
+
+<form action="http://mumstudents.org/params.php" method="post">
+    <fieldset>
+        <legend>Retrieve your grade</legend>
+        <table>
+            <tr>
+                <td>
+                    Student Name:
+                </td>
+                <td>
+                    <input type="text" name="studentName" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Student ID:
+                </td>
+                <td>
+                    <input type="text" name="studentId" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Which Assignment:
+                </td>
+                <td>
+                    <select name="assignment">
+                        <option name="ass1">Assignment 1</option>
+                        <option name="ass2">Assignment 2</option>
+                        <option name="ass3">Assignment 3</option>
+                        <option name="ass4">Assignment 4</option>
+                        <option name="ass5">Assignment 5</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Entry:
+                </td>
+                <td>
+                    <input type="radio" name="entry" value="february2021"/> February 2021
+                    <input type="radio" name="entry" value="may2021"/> May 2021
+                    <input type="radio" name="entry" value="august2021"/> August 2021
+                    <input type="radio" name="entry" value="november2021"/> November 2021
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Confirm:
+                </td>
+                <td>
+                    <input type="checkbox" name="confirm" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+
+                </td>
+                <td>
+                    <input type="submit" value="getGrade" />
+                </td>
+            </tr>
+        </table>
+    </fieldset>
+</form>
+</body>
+</html>
