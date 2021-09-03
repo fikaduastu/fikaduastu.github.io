@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Page Title</title>
+    <link href="style.css" type="text/css" rel="stylesheet" />
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>
+                New User Signup:
+            </legend>
+            <table>
+                <tr>
+                    <td>
+                        Name:
+                    </td>
+                    <td>
+                        <input type="text" name="name" size="16" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Gender:
+                    </td>
+                    <td>
+                        <input type="radio" name="gender" value="male" /> Male
+                        <input type="radio" name="gender" value="female" checked/> female
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Age:
+                    </td>
+                    <td>
+                        <input type="text" name="age" size="6" maxlength="2"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Personality type:
+                    </td>
+                    <td>
+                        <input type="text" name="personalityType" size="6" maxlength="4"/>(<span class="makeItRed">Don't know your type</span>)
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Favourite OS:
+                    </td>
+                    <td>
+                        <select name="favouriteOs">
+                            <option value="windows" selected>Windows</option>
+                            <option value="macosx">Mac OS X</option>
+                            <option value="linux">Linux</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Seeking age:
+                    </td>
+                    <td>
+                        <input type="text" name="min" placeholder="min" size="6" maxlength="2" /> to
+                        <input type="text" name="max" placeholder="max" size="6" maxlength="2" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="submit" value="Sign Up" class="submitButton" />
+                    </td>
+                    <td>
+
+                    </td>
+                </tr>
+
+            </table>
+        </fieldset>
+    </form>
+    <p><a
+            href="https://validator.w3.org/nu/?doc=https://github.com/fikaduastu/fikaduastu.github.io/tree/main/htmlForm/signup.html">
+        <img src="https://manalabs.org/img/w3c-html.png" alt="Valid HTML5" />
+    </a>
+
+        <a href="http://jigsaw.w3.org/css-validator/validator?uri=https://github.com/fikaduastu/fikaduastu.github.io/tree/main/movieReview/style.css">
+            <img style="border:0;width:88px;height:31px"
+                 src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+                 alt="Valid CSS!" />
+        </a>
+    </p>
+</body>
+</html>
