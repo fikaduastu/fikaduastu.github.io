@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Text Decorator</title>
+		<link href="decoratemytext.css" type="text/css" rel="stylesheet" />
+
+		<script src="decoratemytext.js"></script>
+		<!-- link to your script file here -->
+		
+	</head>
+
+	<body>
+		<h1>Text Decorator</h1>
+		
+		<div>
+			<img src="decorated.gif" alt="very decorated!" />
+		</div>
+
+		<!-- Your UI controls go here -->
+	<fieldset>
+		<legend>Text</legend>
+		<textarea id="txtarea1" rows="4" cols="30" >
+			Sample item 1
+			Sample item 2
+		</textarea>
+	</fieldset>
+		<fieldset>
+			<legend>Decoration</legend>
+			<button onclick="myfunction();">Bigger Decorations!</button>
+			<input type="checkbox" onchange="myfunction1();"> Bling
+		</fieldset>
+		
+	</body>
+</html>
