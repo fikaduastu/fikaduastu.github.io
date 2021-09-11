@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Create Account</title>
+        <meta charset="UTF-8">
+        <link href="style.css" rel="stylesheet" type="text/css">
+        <script src="script.js"></script>
+    </head>
+    <body>
+    <h3> Question 1 </h3>
+    <div>
+        <button onclick="rudyTimer()">Click me!</button>
+        <div id="output"></div>
+    </div>
+
+    <h3> Question 2 </h3>
+        <fieldset id="inputArea">
+            <div>
+                <label>Account Name</label>
+                <input id="acctname" type = "text" name = "acctname" class = "col1">
+            </div>
+            <div>
+                <label>Deposit</label>
+                <input id="deposit" type = "text" name = "deposit" class = "col2" maxlength = "9" pattern = "^[0-9]{9}$">
+            </div>
+            
+            <div>
+                <button id="create">Create new account</button>
+            </div>
+        </fieldset>
+        <textarea id="text-area" cols="80" rows="20"></textarea>
+    </body>
+</html>
